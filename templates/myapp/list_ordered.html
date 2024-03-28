@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block content %}
+    <h2>Заказы пользователя: {{ client.name }}</h2>
+
+<h1>За последние 7 дней</h1>
+
+<ul>
+    {% for product in products1 %}
+        <li>
+            <strong>Название товара:</strong> {{ product.name }}<br>
+            <strong>Дата добавления:</strong> {{ product.added_date }}
+        </li>
+    {% endfor %}
+</ul>
+<h1>За последние 30 дней</h1>
+
+<ul>
+    {% for product in products2 %}
+        <li>
+            <strong>Название товара:</strong> {{ product.name }}<br>
+            <strong>Дата добавления:</strong> {{ product.added_date }}
+        </li>
+    {% endfor %}
+</ul>
+<h1>За последние 365 дней</h1>
+
+<ul>
+    {% for product in products3 %}
+        <li>
+            <strong>Название товара:</strong> {{ product.name }}<br>
+            <strong>Дата добавления:</strong> {{ product.added_date }}
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

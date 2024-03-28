@@ -1,0 +1,939 @@
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz1\dz1\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница "Обо мне" была посещена 2024-03-18 20:57:46
+"GET /about/ HTTP/1.1" 200 314
+Главная страница была посещена 2024-03-18 20:57:47
+"GET / HTTP/1.1" 200 245
+Страница "Обо мне" была посещена 2024-03-18 20:57:47
+"GET /about/ HTTP/1.1" 200 314
+Главная страница была посещена 2024-03-18 20:57:48
+"GET / HTTP/1.1" 200 245
+Страница "Обо мне" была посещена 2024-03-18 20:57:49
+"GET /about/ HTTP/1.1" 200 314
+Главная страница была посещена 2024-03-18 20:57:49
+"GET / HTTP/1.1" 200 245
+Watching for file changes with StatReloader
+Главная страница была посещена 2024-03-23 21:48:51
+"GET / HTTP/1.1" 200 245
+Страница "Обо мне" была посещена 2024-03-23 21:48:54
+"GET /about/ HTTP/1.1" 200 314
+Главная страница была посещена 2024-03-23 21:48:57
+"GET / HTTP/1.1" 200 245
+Watching for file changes with StatReloader
+Главная страница была посещена 2024-03-24 00:14:52
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 15, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 79587
+Not Found: /index
+"GET /index HTTP/1.1" 404 2389
+"GET /about HTTP/1.1" 301 0
+Страница "Обо мне" была посещена 2024-03-24 00:15:09
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 20, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+"GET /about/ HTTP/1.1" 500 78889
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\dz1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница "Обо мне" была посещена 2024-03-24 00:16:49
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 20, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+"GET /about/ HTTP/1.1" 500 79140
+Страница "Обо мне" была посещена 2024-03-24 00:16:50
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 20, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+"GET /about/ HTTP/1.1" 500 79140
+Страница "Обо мне" была посещена 2024-03-24 00:16:51
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 20, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+"GET /about/ HTTP/1.1" 500 79140
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница "Обо мне" была посещена 2024-03-24 00:17:24
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 20, in about
+    return render(request, 'myapp/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET /about/ HTTP/1.1" 500 142694
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Страница "Обо мне" была посещена 2024-03-24 00:18:26
+"GET /about/ HTTP/1.1" 200 202
+Главная страница была посещена 2024-03-24 00:18:29
+"GET / HTTP/1.1" 200 209
+Страница "Обо мне" была посещена 2024-03-24 00:18:32
+"GET /about/ HTTP/1.1" 200 202
+Главная страница была посещена 2024-03-24 00:18:33
+"GET / HTTP/1.1" 200 209
+Страница "Обо мне" была посещена 2024-03-24 00:18:33
+"GET /about/ HTTP/1.1" 200 202
+Главная страница была посещена 2024-03-24 00:18:34
+"GET / HTTP/1.1" 200 209
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /ordered_products/51 HTTP/1.1" 301 0
+Internal Server Error: /ordered_products/51/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 29, in ordered_products_view
+    order_date__gte=datetime.now() - timedelta(days=7)).distinct()
+                    ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /ordered_products/51/ HTTP/1.1" 500 66025
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /ordered_products/51/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 27, in ordered_products_view
+    ordered_products_last_week = Product.objects.filter(order__client=client,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order_date' into field. Choices are: added_date, description, id, name, order, price, quantity
+"GET /ordered_products/51/ HTTP/1.1" 500 118808
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /ordered_products/51/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 27, in ordered_products_view
+    ordered_products_last_week = Order.objects.filter(client=client, created_at__gte=datetime.now() - timedelta(days=7))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /ordered_products/51/ HTTP/1.1" 500 119163
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /ordered_products/51/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 40, in ordered_products_view
+    return render(request, 'list_ordered.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: list_ordered.html
+"GET /ordered_products/51/ HTTP/1.1" 500 85904
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /list_ordered/51/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 40, in list_ordered
+    return render(request, 'list_ordered.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: list_ordered.html
+"GET /list_ordered/51/ HTTP/1.1" 500 85674
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/ HTTP/1.1" 200 617
+"GET /list_ordered/50 HTTP/1.1" 301 0
+"GET /list_ordered/50/ HTTP/1.1" 200 626
+"GET /list_ordered/50/ HTTP/1.1" 200 626
+"GET /list_ordered/49 HTTP/1.1" 301 0
+"GET /list_ordered/49/ HTTP/1.1" 200 626
+"GET /list_ordered/49/ HTTP/1.1" 200 626
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+"GET /list_ordered/49/ HTTP/1.1" 200 724
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /list_ordered/49/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: basket() got an unexpected keyword argument 'client_id'
+"GET /list_ordered/49/ HTTP/1.1" 500 61437
+Not Found: /list_ordered/
+"GET /list_ordered/ HTTP/1.1" 404 2644
+Internal Server Error: /list_ordered/50/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: basket() got an unexpected keyword argument 'client_id'
+"GET /list_ordered/50/ HTTP/1.1" 500 61300
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /list_ordered/50/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 48, in basket
+    orders = Order.objects.filter(customer=user).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'customer' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /list_ordered/50/ HTTP/1.1" 500 124229
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/ HTTP/1.1" 200 1873
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/49/ HTTP/1.1" 200 195
+"GET /list_ordered/1 HTTP/1.1" 301 0
+Not Found: /list_ordered/1/
+"GET /list_ordered/1/ HTTP/1.1" 404 2812
+"GET /list_ordered/48 HTTP/1.1" 301 0
+"GET /list_ordered/48/ HTTP/1.1" 200 195
+"GET /list_ordered/49/ HTTP/1.1" 200 195
+"GET /list_ordered/49/ HTTP/1.1" 200 195
+"GET /list_ordered/50/ HTTP/1.1" 200 195
+"GET /list_ordered/50/ HTTP/1.1" 200 195
+"GET /list_ordered/51 HTTP/1.1" 301 0
+"GET /list_ordered/51/ HTTP/1.1" 200 195
+"GET /list_ordered/50/ HTTP/1.1" 200 195
+"GET /list_ordered/50/ HTTP/1.1" 200 195
+"GET /list_ordered/50/ HTTP/1.1" 200 245
+"GET /list_ordered/50/ HTTP/1.1" 200 245
+"GET /list_ordered/50/ HTTP/1.1" 200 245
+"GET /list_ordered/51/ HTTP/1.1" 200 247
+"GET /list_ordered/51/ HTTP/1.1" 200 247
+"GET /list_ordered/51/ HTTP/1.1" 200 247
+Watching for file changes with StatReloader
+"GET /list_ordered/51/ HTTP/1.1" 200 247
+"GET /list_ordered/51/ HTTP/1.1" 200 247
+"GET /list_ordered/50/ HTTP/1.1" 200 245
+"GET /list_ordered/50/ HTTP/1.1" 200 245
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/47 HTTP/1.1" 301 0
+Internal Server Error: /list_ordered/47/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 40, in list_ordered
+    'order': order,
+             ^^^^^
+UnboundLocalError: cannot access local variable 'order' where it is not associated with a value
+"GET /list_ordered/47/ HTTP/1.1" 500 66332
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/48/ HTTP/1.1" 200 287
+"GET /list_ordered/49/ HTTP/1.1" 200 295
+"GET /list_ordered/49/ HTTP/1.1" 200 295
+"GET /list_ordered/49/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+"GET /list_ordered/50/ HTTP/1.1" 200 295
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/ HTTP/1.1" 200 1936
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/ HTTP/1.1" 200 1936
+"GET /list_ordered/50/ HTTP/1.1" 200 1936
+"GET /list_ordered/50/ HTTP/1.1" 200 4316
+"GET /list_ordered/50/ HTTP/1.1" 200 1319
+"GET /list_ordered/50/ HTTP/1.1" 200 1319
+"GET /list_ordered/51/ HTTP/1.1" 200 559
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/ HTTP/1.1" 200 577
+"GET /list_ordered/51/ HTTP/1.1" 200 885
+"GET /list_ordered/51/ HTTP/1.1" 200 986
+"GET /list_ordered/51/ HTTP/1.1" 200 986
+"GET /list_ordered/50/ HTTP/1.1" 200 3140
+"GET /list_ordered/50/ HTTP/1.1" 200 3140
+"GET /list_ordered/50/ HTTP/1.1" 200 733
+"GET /list_ordered/50/ HTTP/1.1" 200 1603
+"GET /list_ordered/50/ HTTP/1.1" 200 787
+"GET /list_ordered/50/ HTTP/1.1" 200 895
+"GET /list_ordered/50/ HTTP/1.1" 200 895
+"GET /list_ordered/51/ HTTP/1.1" 200 651
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/ HTTP/1.1" 200 651
+"GET /list_ordered/51/ HTTP/1.1" 200 651
+"GET /list_ordered/51/ HTTP/1.1" 200 651
+"GET /list_ordered/51/ HTTP/1.1" 200 1230
+"GET /list_ordered/51/ HTTP/1.1" 200 1230
+"GET /list_ordered/51/ HTTP/1.1" 200 656
+"GET /list_ordered/51/ HTTP/1.1" 200 656
+"GET /list_ordered/51/ HTTP/1.1" 200 656
+"GET /list_ordered/51/ HTTP/1.1" 200 676
+"GET /list_ordered/51/ HTTP/1.1" 200 676
+"GET /list_ordered/51/ HTTP/1.1" 200 676
+"GET /list_ordered/50/ HTTP/1.1" 200 1323
+"GET /list_ordered/50/ HTTP/1.1" 200 1323
+"GET /list_ordered/50/ HTTP/1.1" 200 1323
+"GET /list_ordered/49/ HTTP/1.1" 200 1637
+"GET /list_ordered/49/ HTTP/1.1" 200 1637
+"GET /list_ordered/49/ HTTP/1.1" 200 11908
+"GET /list_ordered/49/ HTTP/1.1" 200 484
+"GET /list_ordered/49/ HTTP/1.1" 200 484
+"GET /list_ordered/49/ HTTP/1.1" 200 11908
+"GET /list_ordered/49/ HTTP/1.1" 200 1904
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/47/ HTTP/1.1" 200 364
+"GET /list_ordered/46 HTTP/1.1" 301 0
+"GET /list_ordered/46/ HTTP/1.1" 200 310
+"GET /list_ordered/48/ HTTP/1.1" 200 454
+"GET /list_ordered/48/ HTTP/1.1" 200 454
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/49/ HTTP/1.1" 200 556
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/51/ HTTP/1.1" 200 411
+"GET /list_ordered/51/ HTTP/1.1" 200 411
+"GET /list_ordered/52 HTTP/1.1" 301 0
+"GET /list_ordered/52/ HTTP/1.1" 200 310
+"GET /list_ordered/59 HTTP/1.1" 301 0
+"GET /list_ordered/59/ HTTP/1.1" 200 310
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+"GET /list_ordered/50/ HTTP/1.1" 200 507
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/ HTTP/1.1" 200 520
+"GET /list_ordered/50/ HTTP/1.1" 200 520
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/50/7 HTTP/1.1" 301 0
+"GET /list_ordered/50/7/ HTTP/1.1" 200 3728
+"GET /list_ordered/50/7/ HTTP/1.1" 200 2054
+"GET /list_ordered/49/7/ HTTP/1.1" 200 2054
+"GET /list_ordered/51/7/ HTTP/1.1" 200 972
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/7/ HTTP/1.1" 200 831
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/7/ HTTP/1.1" 200 832
+"GET /list_ordered/51/7/ HTTP/1.1" 200 832
+"GET /list_ordered/51/30 HTTP/1.1" 301 0
+"GET /list_ordered/51/30/ HTTP/1.1" 200 833
+"GET /list_ordered/51/50 HTTP/1.1" 301 0
+"GET /list_ordered/51/50/ HTTP/1.1" 200 833
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /list_ordered/51/50/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_ordered_products() got an unexpected keyword argument 'days'
+"GET /list_ordered/51/50/ HTTP/1.1" 500 61585
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_ordered/51/ HTTP/1.1" 200 2123
+"GET /list_ordered/50/ HTTP/1.1" 200 5377
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/49/ HTTP/1.1" 200 5377
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/51/ HTTP/1.1" 200 2123
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/50/ HTTP/1.1" 200 490
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+"GET /list_ordered/54 HTTP/1.1" 301 0
+Internal Server Error: /list_ordered/54/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 26, in list_ordered
+    client = Client.objects.get(pk=client_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+myapp.models.Client.DoesNotExist: Client matching query does not exist.
+"GET /list_ordered/54/ HTTP/1.1" 500 75516
+Internal Server Error: /list_ordered/52/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 26, in list_ordered
+    client = Client.objects.get(pk=client_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+myapp.models.Client.DoesNotExist: Client matching query does not exist.
+"GET /list_ordered/52/ HTTP/1.1" 500 75516
+"GET /list_ordered/51/ HTTP/1.1" 200 2033
+Watching for file changes with StatReloader
+"GET /add_product HTTP/1.1" 301 0
+"GET /add_product/ HTTP/1.1" 200 1062
+"POST /add_product/ HTTP/1.1" 200 1196
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /add_product/ HTTP/1.1" 200 1196
+"POST /add_product/ HTTP/1.1" 200 1196
+"GET /add_product/ HTTP/1.1" 200 1062
+"POST /add_product/ HTTP/1.1" 200 1186
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1062
+"POST /add_product/ HTTP/1.1" 200 1187
+"GET /add_product/ HTTP/1.1" 200 1062
+"POST /add_product/ HTTP/1.1" 200 1188
+"POST /add_product/ HTTP/1.1" 200 1188
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1053
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ProductForm' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 66242
+"GET /add_product/ HTTP/1.1" 200 1053
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ProductForm' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 66229
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1053
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ProductForm' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 66222
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1053
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    product = form.save()
+              ^^^^^^^^^
+AttributeError: 'ProductForm' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 66401
+"GET /add_product/ HTTP/1.1" 200 1053
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    product = form.save()
+              ^^^^^^^^^
+AttributeError: 'ProductForm' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 66412
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1090
+"POST /add_product/ HTTP/1.1" 200 1129
+"GET /add_product/ HTTP/1.1" 200 1090
+"POST /add_product/ HTTP/1.1" 200 1129
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1090
+"GET /add_product/ HTTP/1.1" 200 1090
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 60, in add_product
+    Product(**form.cleaned_data, photo=form.cleaned_data['photo']).save()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: myapp.models.Product() got multiple values for keyword argument 'photo'
+"POST /add_product/ HTTP/1.1" 500 66664
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1090
+"POST /add_product/ HTTP/1.1" 200 1141
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\dz1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1090
+"POST /add_product/ HTTP/1.1" 200 1133
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1120
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 61, in add_product
+    form.cleaned_data['photo'].save(form.cleaned_data['name'] + '.png', form.cleaned_data['photo'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'save'
+"POST /add_product/ HTTP/1.1" 500 67025
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1120
+"POST /add_product/ HTTP/1.1" 200 1151
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1129
+Internal Server Error: /add_product/
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py", line 67, in add_product
+    product.save()
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dimav\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+"POST /add_product/ HTTP/1.1" 500 129015
+"POST /add_product/ HTTP/1.1" 200 1172
+"POST /add_product/ HTTP/1.1" 200 1172
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1129
+"POST /add_product/ HTTP/1.1" 200 1167
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_product/ HTTP/1.1" 200 1129
+"POST /add_product/ HTTP/1.1" 302 0
+"GET /add_product HTTP/1.1" 301 0
+"GET /add_product/ HTTP/1.1" 200 1129
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dimav\Documents\Учеба\Третья четверть\Фреймворк Django\dz\dz1-2\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /add_product/ HTTP/1.1" 302 0
+"GET /add_product HTTP/1.1" 301 0
+"GET /add_product/ HTTP/1.1" 200 1129
